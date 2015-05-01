@@ -1,0 +1,80 @@
+    1  pwd
+    2  ls
+    3  mkdir one
+    4  cd one
+    5  git clone https://github.com/LittleByLittleLabs/create-git-conflict.sh.git
+    6  sudo apt-get update
+    7  ls
+    8  cd create-git-conflict.sh/
+    9  ls -al
+   10  chmod u+x  create-git-conflict.sh 
+   11  ./create-git-conflict.sh 
+   12  create-git-conflict.sh --run
+   13  chmod u+x create-git-conflict.sh 
+   14  bash create-git-conflict.sh 
+   15  man chmod
+   16  chmod u+X+r
+   17  chmod u+X+r create-git-conflict.sh 
+   18  ./create-git-conflict.sh 
+   19  ls -al
+   20  cd ..
+   21  ls
+   22  git pull https://github.com/itpwang/create-git-conflict.sh.git
+   23  git clone 
+   24  git clone https://github.com/itpwang/create-git-conflict.sh.git
+   25  rmdir create-git-conflict.sh
+   26  rmdir -r create-git-conflict.sh/
+   27  rmdir -f create-git-conflict.sh/
+   28  man rmdir
+   29  cd create-git-conflict.sh/
+   30  ls -al
+   31  rm .git README create-git-conflict.sh 
+   32  cd .git
+   33  ls
+   34  cd ..
+   35  rm -rf .git
+   36  cd ..
+   37  ls
+   38  rm -rf create-git-conflict.sh/
+   39  git clone https://github.com/itpwang/create-git-conflict.sh.git
+   40  ls -al
+   41  cd create-git-conflict.sh/
+   42  ls -al
+   43  ./create-git-conflict.sh 
+   44  git status
+   45  ./create-git-conflict.sh --run
+   46  git status
+   47  ls -al
+   48  more hi
+   49  more there
+   50  vim hi
+   51  vim there
+   52  git checkout
+   53  git mergetool
+   54  git merge
+   55  ls -al
+   56  git commit
+   57  git status
+   58  git merge
+   59  git checkout
+   60  git status
+   61  git merge
+   62  ls -al
+   63  cat hi hi.orig there there.orig 
+   64  ls -al
+   65  git show | head
+   66  git rebase --continue
+   67  git status
+   68  git add hi there
+   69  hi status
+   70  git status
+   71  git merge
+   72  git merge master
+   73  $HEAD
+   74  git log
+   75  history
+   76  git push
+   77  git checkout master
+   78  git status
+   79  git push
+   80  history > resolvegitconflict.txt
